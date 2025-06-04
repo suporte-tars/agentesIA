@@ -9,6 +9,10 @@ flowchart TD
     D --> D2[🎨 Tintas MC]
     A --> E[📂 tarefas]
     A --> F[📂 historico]
+    A --> G[📂 administrativo]
+    A --> H[📂 financeiro]
+    A --> I[📂 marketing]
+    A --> J[📂 rh]
 
     click A "./" _self
     click B "docs/" _self
@@ -18,6 +22,10 @@ flowchart TD
     click D2 "projetos/tintas-mc/" _self
     click E "tarefas/" _self
     click F "historico/" _self
+    click G "administrativo/" _self
+    click H "financeiro/" _self
+    click I "marketing/" _self
+    click J "rh/" _self
 ```
 
 🚀 **Clique** nos blocos acima ou navegue pelas pastas.
