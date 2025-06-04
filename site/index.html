@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TARS Dashboard</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+}
+main {
+  padding: 1rem;
+}
+.board {
+  display: flex;
+  gap: 1rem;
+}
+.column {
+  flex: 1;
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 1rem;
+}
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>TARS Cockpit</h1>
+</header>
+<main>
+<section class="board">
+  <div class="column">
+    <h2>Backlog</h2>
+    <div class="card">Exemplo de tarefa 1</div>
+    <div class="card">Exemplo de tarefa 2</div>
+  </div>
+  <div class="column">
+    <h2>Em andamento</h2>
+    <div class="card">Reunião com cliente</div>
+  </div>
+  <div class="column">
+    <h2>Concluído</h2>
+    <div class="card">Setup inicial</div>
+  </div>
+</section>
+</main>
+</body>
+</html>
